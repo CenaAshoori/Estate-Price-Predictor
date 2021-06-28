@@ -1,4 +1,5 @@
 import 'package:estate_map/views/show_map.dart';
+import 'package:estate_map/views/add_coordinate.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: MyHomePage(title: 'All Task'),
-      home: ShowMap(),
+      home: Row(
+        children: [
+          Container(width: 300, child: LoginView()),
+          Flexible(child: ShowMap()),
+        ],
+      ),
     );
   }
 }
