@@ -15,8 +15,8 @@ That the **X coordinate** and **Y coordinate** are input and the **Price** is th
  
 ---
  
-![ui.jpeg](doc\ui.jpeg)
-![ui.jpg](doc\ui.jpg)
+![ui.jpeg](https://github.com/CenaAshoori/Estate-Price-Predictor/blob/main/doc/ui.jpeg)
+![ui.jpg](https://github.com/CenaAshoori/Estate-Price-Predictor/blob/main/doc/ui.jpg)
 ---
  
 We have data that store in csv format and with **Sklearn** library in python we going to read data with **Pandas** library and use this rows as input for **LinearRegression** class that is one of the **sklearn** libraries. and then this class makes a relation between the raws and the output of the data and the result is some rule that will help us to predict the unknown estate price.
